@@ -31,7 +31,7 @@ public class QrCodeTest {
 		try {
 			image = createQrCode(sContent_p, 165);
 			String szQRFormatExt="png";
-			String sFullPath ="C:\\Projects\\work\\cert-276581718127.png";
+			String sFullPath ="D:\\All_Workspace\\Java-J2EE\\MyTestProjects\\TestQROutput\\cert-276581718127.png";
 			ImageIO.write(image, szQRFormatExt,  new File(sFullPath));
 			System.out.println("done");
 		} catch (WriterException e) {
